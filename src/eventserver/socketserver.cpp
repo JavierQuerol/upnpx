@@ -45,8 +45,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#include "iphoneport.h"
-
 #define IFF_UP          0x1             /* interface is up              */
 #define IFF_BROADCAST   0x2             /* broadcast address valid      */
 #define IFF_DEBUG       0x4             /* turn on debugging            */

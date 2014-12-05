@@ -57,7 +57,7 @@
 @synthesize udn;
 @synthesize usn;
 @synthesize urn;
-@synthesize smallIcon;
+//@synthesize smallIcon;
 @synthesize smallIconWidth;
 @synthesize smallIconHeight;
 @synthesize smallIconURL;
@@ -128,7 +128,7 @@
     [udn release];
     [usn release];
     [urn release];
-    [smallIcon release];
+//    [smallIcon release];
     [type release];
     [smallIconURL release];
 

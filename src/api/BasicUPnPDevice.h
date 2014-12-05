@@ -36,8 +36,6 @@
 #import "SSDPDB_ObjC.h"
 #import "BasicUPnPService.h"
 
-#import "iphoneport.h"
-
 @interface BasicUPnPDevice : NSObject {
 @private
     bool isRoot;
@@ -59,7 +57,7 @@
     NSString *udn;
     NSString *usn;
     NSString *urn;
-    UIImage *smallIcon;
+//    UIImage *smallIcon;
     int smallIconHeight;
     int smallIconWidth;
     int smallIconDepth;
@@ -93,7 +91,7 @@
 @property(readwrite, retain) NSString *udn;
 @property(readwrite, retain) NSString *usn;
 @property(readwrite, retain) NSString *urn;
-@property(readwrite, retain) UIImage *smallIcon;
+//@property(readwrite, retain) UIImage *smallIcon;
 @property(readwrite) int smallIconHeight;
 @property(readwrite) int smallIconWidth;
 @property(readwrite) int smallIconDepth;

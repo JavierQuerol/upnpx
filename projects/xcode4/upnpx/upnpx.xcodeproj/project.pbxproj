@@ -162,7 +162,6 @@
 		15C44E8E132C30490013D453 /* UPnPEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E42132C30490013D453 /* UPnPEvents.m */; };
 		15C44E90132C30490013D453 /* UPnPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E44132C30490013D453 /* UPnPManager.m */; };
 		15C44E92132C30490013D453 /* WANConnection1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C44E46132C30490013D453 /* WANConnection1Device.m */; };
-		15C44EA2132C332D0013D453 /* iphoneport.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EA1132C332D0013D453 /* iphoneport.h */; };
 		15C44F04132C3AF80013D453 /* BasicHTTPServer_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EF8132C3AF80013D453 /* BasicHTTPServer_ObjC.h */; };
 		15C44F05132C3AF80013D453 /* BasicParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EF9132C3AF80013D453 /* BasicParser.h */; };
 		15C44F06132C3AF80013D453 /* BasicParserAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C44EFA132C3AF80013D453 /* BasicParserAsset.h */; };
@@ -347,7 +346,6 @@
 		15C44E42132C30490013D453 /* UPnPEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPnPEvents.m; path = ../../../../src/upnp/UPnPEvents.m; sourceTree = "<group>"; };
 		15C44E44132C30490013D453 /* UPnPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UPnPManager.m; path = ../../../../src/upnp/UPnPManager.m; sourceTree = "<group>"; };
 		15C44E46132C30490013D453 /* WANConnection1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WANConnection1Device.m; path = ../../../../src/upnp/WANConnection1Device.m; sourceTree = "<group>"; };
-		15C44EA1132C332D0013D453 /* iphoneport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iphoneport.h; path = ../../../../src/port/ios/iphoneport.h; sourceTree = "<group>"; };
 		15C44EF8132C3AF80013D453 /* BasicHTTPServer_ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicHTTPServer_ObjC.h; path = ../../../../src/api/BasicHTTPServer_ObjC.h; sourceTree = "<group>"; };
 		15C44EF9132C3AF80013D453 /* BasicParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicParser.h; path = ../../../../src/api/BasicParser.h; sourceTree = "<group>"; };
 		15C44EFA132C3AF80013D453 /* BasicParserAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicParserAsset.h; path = ../../../../src/api/BasicParserAsset.h; sourceTree = "<group>"; };
@@ -415,7 +413,6 @@
 			isa = PBXGroup;
 			children = (
 				15BAC504132C2E7800F5C41A /* api */,
-				15BAC505132C2E8700F5C41A /* port */,
 				15BAC501132C230600F5C41A /* common */,
 				15BAC502132C231400F5C41A /* eventserver */,
 				15BAC503132C232600F5C41A /* ssdp */,
@@ -575,14 +572,6 @@
 			name = api;
 			sourceTree = "<group>";
 		};
-		15BAC505132C2E8700F5C41A /* port */ = {
-			isa = PBXGroup;
-			children = (
-				15C44EA1132C332D0013D453 /* iphoneport.h */,
-			);
-			name = port;
-			sourceTree = "<group>";
-		};
 		15BAC506132C2F8C00F5C41A /* upnp */ = {
 			isa = PBXGroup;
 			children = (
@@ -687,7 +676,6 @@
 				15C44DF5132C302D0013D453 /* ssdpsearchresp.h in Headers */,
 				15C44DF7132C302D0013D453 /* ssdptools.h in Headers */,
 				15C44DF9132C302D0013D453 /* upnp.h in Headers */,
-				15C44EA2132C332D0013D453 /* iphoneport.h in Headers */,
 				15C44F04132C3AF80013D453 /* BasicHTTPServer_ObjC.h in Headers */,
 				15C44F05132C3AF80013D453 /* BasicParser.h in Headers */,
 				15C44F06132C3AF80013D453 /* BasicParserAsset.h in Headers */,
